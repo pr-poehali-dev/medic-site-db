@@ -1,0 +1,31 @@
+{
+  "tests": [
+    {
+      "name": "Create new appointment",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "user_id": 1,
+        "symptoms": "Головная боль, повышенная температура",
+        "service_id": 1
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "id": "number",
+        "symptoms": "string",
+        "status": "string",
+        "doctor": {
+          "name": "string"
+        }
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Get all appointments",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    }
+  ]
+}

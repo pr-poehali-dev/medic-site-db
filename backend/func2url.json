@@ -1,0 +1,7 @@
+{
+  "auth": "https://functions.poehali.dev/b5591eeb-ee21-4db5-bdc2-8727f459a2cd",
+  "services": "https://functions.poehali.dev/7ea51656-08d5-405f-b1e2-4217c3afb860",
+  "doctors": "https://functions.poehali.dev/833dba9a-563e-4ca8-86a2-873b2514bdaa",
+  "appointments": "https://functions.poehali.dev/419efb75-a310-4f7a-bc78-d477b8ef7d6b",
+  "faq": "https://functions.poehali.dev/642bdee0-1640-47fc-b795-2e30be9af142"
+}
